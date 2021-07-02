@@ -6,6 +6,7 @@
 4. [Libraries](#Libraries)
 5. [File Descriptions](#File-Descriptions)
 6. [Result](#Result)
+7. [Resources](#Resources)
 
 ## Project Motivation
 To Learn TensorFlow image classification
@@ -23,7 +24,14 @@ The pillow library need to be installed to read image files correctly.
 
 ```conda install -c conda-forge pillow``` 
 
-And the project code should run with no issues using Anaconda versions 4.9.x, python versions 3.x., seaborn versions 0.11.x and numpy <= 1.19</br>
+And the project code should run with no issues using Anaconda versions 4.9.x, python versions 3.x., seaborn versions 0.11.x and numpy <= 1.19 </br>
+
+The food101 dataset are not in the github repository becaue of the large file size. So you need to download from here:
+https://www.kaggle.com/kmader/food41?select=images </br>
+After downloaded the food101 dataset, put it in the folder food101: </br>
+
+Only 10 food classes are classify due to computation time so the image directories should only have 10 classs in alphabet order </br>
+- Copy 10 class directories to sub_images directory
 
 ## Libraries
 * numpy
@@ -35,12 +43,18 @@ And the project code should run with no issues using Anaconda versions 4.9.x, py
 * keras_tuner
 * tensorflow
 
-## File Descriptions
+## File Description
 ```food101/```: The folder that contains entire image dataset. <br/>
 ```food101/subimages```: The folder that contains sub_images for classification. <br/>
+```meta/```: The folder that contains image meta data. <br/>
+```meta/sub_classes.txt```: the sub_classes name data. <br/>
 ```readme.md```: README file. <br/>
 ```Food image classification.ipynb```: The jupyter notebook file where the code and visualization are presented. <br/>
 
 ## Result
 
 The project can prediction food image at around 60.0% and can be increased by adding more additional epochs <br/>
+
+## Resource
+* Food Images (Food-101) dataset <br/>
+https://www.kaggle.com/kmader/food41?select=images
