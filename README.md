@@ -53,7 +53,7 @@ Only 10 food classes are classify due to computation time so the image directori
 
 ## Result
 
-The project can prediction food image at around 60.0% and can be increased by adding more additional epochs <br/>
+The project predicts food image at around 60.0% and can be increased by adding additional epochs <br/>
 
 ## Resource
 * Food Images (Food-101) dataset <br/>
