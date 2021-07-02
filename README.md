@@ -1,4 +1,4 @@
-# Image classification: Classify image using TensorFlow
+# Image classification: Classify food image using TensorFlow
 ### Table of Contents 
 1. [Project Motivation](#Project-Motivation)
 2. [Description](#Description)
