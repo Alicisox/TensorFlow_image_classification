@@ -44,10 +44,10 @@ Only 10 food classes are classify due to computation time so the image directori
 * tensorflow
 
 ## File Description
-```food101/```: The folder that contains entire image dataset. <br/>
+```food101/```: The folder that contains entire image dataset including meta data. <br/>
 ```food101/subimages```: The folder that contains sub_images for classification. <br/>
-```meta/```: The folder that contains image meta data. <br/>
-```meta/sub_classes.txt```: the sub_classes name data. <br/>
+```food101/meta/```: The folder that contains image meta data. <br/>
+```food101/meta/sub_classes.txt```: the sub_classes name data. <br/>
 ```readme.md```: README file. <br/>
 ```Food image classification.ipynb```: The jupyter notebook file where the code and visualization are presented. <br/>
 
